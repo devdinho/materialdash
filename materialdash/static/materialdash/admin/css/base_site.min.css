@@ -155,7 +155,13 @@ input.valid[type="text"]:not(.browser-default) {
   text-transform: uppercase;
 }
 .small-icon {
-  font-size: 16px;
+  font-size: 24px;
+  margin: 1rem;
+  transition: font-size 0.2s;
+}
+.small-icon:hover {
+  font-size: 26px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.572));
 }
 .medium-icon {
   font-size: 19px;
