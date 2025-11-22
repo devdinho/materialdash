@@ -1,4 +1,4 @@
-# Django Material Administration
+![MaterialDash](./title.png)
 
 MaterialDash é uma interface de administração moderna e responsiva para Django, baseada em Material Design. Este projeto é uma continuação da biblioteca [django-material-admin](https://github.com/MaistrenkoAnton/django-material-admin) de [MaistrenkoAnton](https://github.com/MaistrenkoAnton), que foi descontinuada. Com MaterialDash, buscamos revitalizar e expandir as funcionalidades criadas originalmente, oferecendo uma solução mais atualizada e melhorada para os desenvolvedores.
 
@@ -17,11 +17,13 @@ Nosso objetivo é preservar o trabalho feito com o django-material-admin, ao mes
 ## Guia de Inicio Rápido
 
 **Instalação:**
+
 ```bash
 pip install materialdash
 ```
 
 1. Adicione **materialdash** e **materialdash.admin** à sua configuração `INSTALLED_APPS` e remova ou comente a linha de `django.contrib.admin`:
+
    - Necessário
 
    ```python
@@ -34,6 +36,7 @@ pip install materialdash
    ```
 
 2. Inclua a URLconf do materialdash em seu projeto `urls.py` assim:
+
    - Necessário
 
    ```python
