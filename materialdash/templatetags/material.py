@@ -89,7 +89,9 @@ def cookie_current_theme(context, preview):
 
 @register.tag(name='additional_submit_row')
 def additional_submit_row_tag(parser, token):
-    return InclusionAdminNode(parser, token, func=submit_row, template_name='additional_submit_line.html')
+    return InclusionAdminNode(
+        'additional_submit_row', parser, token, func=submit_row, template_name='additional_submit_line.html'
+    )
 
 
 @register.simple_tag

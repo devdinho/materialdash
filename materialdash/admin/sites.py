@@ -147,8 +147,6 @@ class MaterialDashAdminSite(AdminSite):
                     or MATERIALDASH_ADMIN_SITE['APP_ICONS'].get(app_label)
                 }
 
-        if label:
-            return app_dict.get(label)
         return app_dict
 
 
