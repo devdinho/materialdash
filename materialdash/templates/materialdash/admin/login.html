@@ -57,6 +57,7 @@
         </p>
       {% endif %}
       <form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
+        <input type="hidden" name="next" value="{{ next }}">
 
         <div class="row">
           <div class="col s12">
